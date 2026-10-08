@@ -12,7 +12,7 @@ int tinhTong(int a[][100], int n, int m) {
 }
 
 void xoaDong(int a[][100], int &n, int m, int i) {
-    // D?ch các dòng phía sau lên 1 dòng
+    // D?ch cÃ¡c dÃ²ng phÃ­a sau lÃªn 1 dÃ²ng
     for (int k = i; k < n - 1; k++)
         for (int j = 0; j < m; j++)
             a[k][j] = a[k + 1][j];
@@ -53,6 +53,6 @@ int main() {
 }
 
 // Do phuc tap thoi gian: O(NxM).
-// Do phuc tap khong gian: O(1).
+// Do phuc tap bo nho: O(1).
 
 
