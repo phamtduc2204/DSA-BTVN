@@ -12,7 +12,6 @@ int tinhTong(int a[][100], int n, int m) {
 }
 
 void xoaDong(int a[][100], int &n, int m, int i) {
-    // D?ch các dòng phía sau lên 1 dòng
     for (int k = i; k < n - 1; k++)
         for (int j = 0; j < m; j++)
             a[k][j] = a[k + 1][j];
